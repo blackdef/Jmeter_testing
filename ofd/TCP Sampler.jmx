@@ -29,13 +29,13 @@
       </kg.apc.jmeter.threads.SteppingThreadGroup>
       <hashTree>
         <TCPSampler guiclass="TCPSamplerGui" testclass="TCPSampler" testname="BinTCP request" enabled="true">
-          <stringProp name="TCPSampler.classname">BinaryTCPClientImpl</stringProp>
-          <stringProp name="TCPSampler.server">91.239.5.49</stringProp>
+          <stringProp name="TCPSampler.classname">ru.astralnalog.jmeter.tcp.OfdTCPClient</stringProp>
+          <stringProp name="TCPSampler.server">192.168.1.175</stringProp>
           <boolProp name="TCPSampler.reUseConnection">false</boolProp>
           <stringProp name="TCPSampler.port">7777</stringProp>
           <boolProp name="TCPSampler.nodelay">false</boolProp>
           <stringProp name="TCPSampler.timeout"></stringProp>
-          <stringProp name="TCPSampler.request">2A08410A81A2000139393939303738393237382020202020F80014000000F80006D8A50101109999990789278FFFFF000001B31D85FC92000001000200C9197A6B928EA8856F1260CB0A7E3CB1703C554EDBCE2E58A77758729CD7483205B98EF927947B47F8892DFD13E5E2A5245C89FBF4ED96DB14ED19F09A2CFE44254BBD50E20A01875459471F8AABACB78B13682A0D2C104D0630D48B0B234FFF3F8D9A67C0A41FD4F40481048A89D94A7017DD5F4E0DD759D74EB3523317B72EDBB3B8A4F31A9B1920028F7F6FE2FAC51EBCBD619CD4F2364CA891AA790F52DADF148F545601D147BAC026E4EAD5FB93BFCAB625E74F33F3637378EEDEECB4253565C169441081B52B54590CD363F45FFFA352A5FCD5BBD675</stringProp>
+          <stringProp name="TCPSampler.request">2A08410B81A200013939393930373839323738202020202008011400000008010000A50301109999990789278FFFFF00002A0000000000000000000000000300DA0011041000393939393037383932373820202020200D0414003034333133323820202020202020202020202020FA030C00343032393031373938312020100404002A000000F403040078558F57350406003104033429650E0404000B00000012040400060000001E04010001FC0302000A05230430000604140097A8AFE1EB20E120A1A5AAAEADAEAC204C415953370402002602FF030300032909130402000A055004010000070402000A053904010000FD0312009188912E2080848C888D8891929080928E901F040100011804060041737472616C500401000000000000000000000000</stringProp>
           <boolProp name="TCPSampler.closeConnection">true</boolProp>
           <stringProp name="ConfigTestElement.username"></stringProp>
           <stringProp name="ConfigTestElement.password"></stringProp>
@@ -226,7 +226,7 @@ if (lenght == 0)
       </ThreadGroup>
       <hashTree>
         <TCPSampler guiclass="TCPSamplerGui" testclass="TCPSampler" testname="BinTCP request" enabled="true">
-          <stringProp name="TCPSampler.classname">BinaryTCPClientImpl</stringProp>
+          <stringProp name="TCPSampler.classname">ru.astralnalog.jmeter.tcp.OfdTCPClient</stringProp>
           <stringProp name="TCPSampler.server">192.168.1.175</stringProp>
           <boolProp name="TCPSampler.reUseConnection">false</boolProp>
           <stringProp name="TCPSampler.port">7777</stringProp>
